@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Javascript</title>
+    <script>
+        function myFunction(){
+            var text = 'Paragraph Changed'
+            var element = document.getElementById('demo')
+            if (element.innerHTML == text){ element.innerHTML = 'A Paragraph'}
+            else{element.innerHTML = text}
+        }
+    </script>
+</head>
+<body>
+    <p id="demo">A Paragraph</p>
+
+    <button type="Alphonsus" onclick="myFunction()">Click</button>
+</body>
+</html>
